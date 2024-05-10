@@ -12,10 +12,11 @@
   "license": "MIT",
   "dependencies": {
     "@mikro-orm/core": "next",
-    "@mikro-orm/sqlite": "next",
+    "@mikro-orm/postgresql": "next",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@testcontainers/postgresql": "^10.9.0",
     "@types/jest": "^29.5.8",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1",
